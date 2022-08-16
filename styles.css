@@ -1,0 +1,415 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #273B4A;
+    font-family: 'Audiowide';
+    overflow: scroll;
+    /* width: 360px; */
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+
+     /* this is my intro page */
+.intro_page{
+    /* border: 2px solid white; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+.intro_circle
+{
+    border: 5px solid #00FF0A;
+    height: 80%;
+    width: 40%;
+    border-radius: 100%;
+    left: -50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro_circle h3{
+    font-size: 30px;
+    font-family: 'Averia Serif Libre';
+    font-weight: 400;
+    color: #00FF0A;
+    /* padding-right: 30px; */
+}
+.two_circles
+{
+   /* border: 2px solid red; */
+   height: 100%;
+   width: 120px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   /* opacity: 0; */
+}
+.tc1
+{
+    border-bottom-left-radius: 100%;
+    border-left: 7px solid #00FF0A;
+    border-bottom: 7px solid #00FF0A;
+    height: 120px;
+    width: 120px;
+    display: none;
+}
+.tc2
+{
+    border-top-left-radius: 100%;
+    border-left: 7px solid #00FF0A;
+    border-top: 7px solid #00FF0A;
+    height: 120px;
+    width: 120px;
+    display: none;
+}
+
+
+                                                     /* about me of the website */
+.aboutMe
+{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: max-content;
+}
+.aboutMe_quote
+{
+    height: 100px;
+    width: 100%;
+    background-color: #00ff0a;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.aboutMe_quote h4
+{
+    /* border: 2px solid red; */
+    font-size: 150%;
+    font-family: 'Audiowide';
+    color: #273B4A;
+    text-align: center;
+}
+.aboutMe_box
+{
+    /* border: 2px solid blue; */
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutMe_box1
+{
+    /* border: 2px solid white; */
+    width: 80%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.aM_heading
+{
+    /* border: 2px solid thistle; */
+    color: white;
+    font-size: 24px;
+    /* padding-left: 20px; */
+    padding-bottom: 50px;
+    font-weight: 100;
+    padding-left: 130px;
+}
+.aM_pic_para
+{
+    /* border: 2px solid greenyellow; */
+    width: 100%;
+    /* height: 90%; */
+    display: flex;
+    /* flex-direction: column; */
+}
+.aM_pic
+{
+    /* border: 2px solid tomato; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.aM_pic img{
+    border: 10px solid #29475E;
+    height: 280px;
+    border-radius: 100%;
+    
+}
+.aM_pic :hover
+{
+    box-shadow: 2px 2px 10px 4px  #00ff0a;
+}
+.aM_para
+{
+    width: 50%;
+    /* border: 2px solid rgb(80, 71, 255); */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aM_para p{
+    font-size: 18px;
+}
+
+                                                     /* my work in website box styles */
+.myWork
+{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: max-content;
+}
+.myWork_Quote
+{
+    width: 100%;
+    height: 100px;
+    background-color: #00ff0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myWork_Quote h4
+{
+    padding: 10px;
+    margin: 0px;
+    color: #273B4A;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.myWork_box
+{
+    /* border: 2px solid white; */
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 65px;
+}
+.myW_box1
+{
+    border: 2px solid rgb(0, 0, 0);
+    width: 70%;
+    height: max-content;
+    border-radius: 20px;
+    background-color: #29475E;
+    box-shadow: 10px 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myW_inner_box
+{
+    width: 85%;
+    height: 85%;
+    /* border: 2px solid pink; */
+    margin: 40px;
+    margin-top: 20px;
+}
+
+.myW_heading h4
+{
+    color: white;
+    font-size: 24px;
+    margin: 0px;
+    padding-top: 10px;
+}
+.myW_work_box
+{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 90%;
+    color: white;
+}
+.myW_work_box1
+{
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.my_w_b_box
+{
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: white;
+    /* box-shadow: 10px 10px rgba(255, 255, 255, 0.4); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my_w_b_box img{
+    width: 100%;
+}
+.my_w_b_box:hover
+{
+    box-shadow: 5px 5px 5px 3px #233441;
+}
+.my_w_b_para
+{
+    /* border: 2px solid blue; */
+    /* width: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-left: 20px;
+    /* font-size: 20px; */
+}
+
+/* -----------------------------------------contact section of the website-------------------------------------- */
+.contact
+{
+    /* border: 2px solid white; */
+    height: max-content;
+    width: 100%;
+}
+.con_quote
+{
+    width: 100%;
+    height: 100px;
+    background-color: #00FF0A;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color: #273B4A;
+}
+
+/* the main contact box  */
+.contact_box
+{
+    /* border: 2px solid rgb(255, 255, 255); */
+    display: flex;
+    /* flex-direction: column; */
+}
+.con_head{
+    width: 30%;
+    /* border: 2px solid rgb(126, 24, 24); */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: right;
+}
+.con_heading
+{
+    /* border: 2px solid white; */
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.con_circle
+{
+    position: relative;
+    border: 7px solid #00FF0A;
+    height: 400px;
+    width: 100%;
+    border-top-right-radius: 100%;
+    border-bottom: 0px;
+    border-left: 10px;
+
+}
+.con_form{
+    width: 30%;
+    /* border: 2px solid gainsboro; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.con_form form
+{
+    height: 350px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+}
+.space
+{
+    margin: 2px;
+    font-family: 'Audiowide';
+}
+#fname, #email, #subject
+{
+    background-color: #97F5AC;
+    border: none;
+    margin-bottom: 4px;
+}
+#fname, #email{
+    height: 30px;
+}
+.submit_btn
+{
+    color: #00FF0A;
+    background-color: black;
+    font-family: 'Audiowide';
+    font-size: 18px;
+    width: 100px;
+    margin-top: 0px;
+}
+.submit_btn:hover
+{
+    background-color: #00FF0A;
+    color: #233441;
+    border: none;
+}
+.con_plane{
+    width: 30%;
+    /* border: 2px solid rgb(37, 71, 149); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.cp_img {
+    /* border: 2px solid red; */
+    padding-top: 70px;
+    margin-left: 20px;
+}
+.cp_img img
+{
+    height: 300px;
+    height: 250px;
+    width: auto;
+}
+.copyright
+{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    border-bottom: 4px solid #00FF0A;
+    margin-bottom: 30px;
+    width: 80%;
+}
+footer
+{
+    height: 20px;
+    width: 100%;
+    background-color: #00FF0A;
+}
